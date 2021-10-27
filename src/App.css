@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Varela+Round&display=swap');
+
+body{font-family: 'Varela Round', sans-serif;font-size: 18px;background: #EDE9E8;}
+
+.wrapper {display: flex;  align-items: center;flex-direction: column; justify-content: center;width: 100%;min-height: 100%;padding: 20px;}
+
+.title-section{font-family: 'Chicle', cursive;font-size: 30px;}
+h1{color:#ffd700;text-shadow: 2px 2px #6b6b6b;}
+
+.mylogo{
+  width: 200px;
+  max-width: 100%;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  }
+
+.navbar-nav > li > a{
+  color: #fff;
+  margin: 0 20px 0;
+  border-top: 2px solid #242629;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+  
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus  {
+    border-top: 2px solid #ffd700;
+    }
+
+.navbar-nav > li > a:hover  {
+      border-top: 2px solid #ffd700;
+      }
+
+    header {
+      position: relative;
+      background-color: black;
+      height: 75vh;
+      min-height: 25rem;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    header video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: 0;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    header .container {
+      position: relative;
+      z-index: 2;
+    }
+    
+    header .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      opacity: 0.5;
+      z-index: 1;
+    }
+
+.lead {
+      width: 720px;
+      max-width: 100%;
+      margin: 0 auto;
+      }
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #000;
+}
