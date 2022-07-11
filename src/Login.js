@@ -9,7 +9,7 @@ export default class Login extends Component {
             
             <form>
             <input type="text" id="login" class="fadeIn second" name="login" placeholder="Username"/>
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password"/>
+            <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password"/>
             <input type="submit" class="fadeIn fourth" value="Log In"/>
             </form>
 
